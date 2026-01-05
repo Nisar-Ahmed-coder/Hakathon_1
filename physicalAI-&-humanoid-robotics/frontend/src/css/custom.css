@@ -1,0 +1,200 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styles for robotics/ROS2 content */
+.ros2-node {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.ros2-topic {
+  background-color: #e8f5e9;
+  border-left: 4px solid #4caf50;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.ros2-service {
+  background-color: #fff3e0;
+  border-left: 4px solid #ff9800;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Style for biological analogy callouts */
+.biological-analogy {
+  border: 2px dashed #9e9e9e;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+}
+
+/* Custom styles for digital twin/simulation content */
+.digital-twin-concept {
+  background-color: #e1f5fe;
+  border-left: 4px solid #03a9f4;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.simulation-physics {
+  background-color: #f3e5f5;
+  border-left: 4px solid #9c27b0;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.sensor-simulation {
+  background-color: #e0f2f1;
+  border-left: 4px solid #009688;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.visualization-content {
+  background-color: #fff8e1;
+  border-left: 4px solid #ffeb3b;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Custom styles for AI-Robot Brain (NVIDIA Isaac) content */
+.ai-robot-brain-concept {
+  background-color: #fce4ec;
+  border-left: 4px solid #e91e63;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.isaac-sim-content {
+  background-color: #f3e5f5;
+  border-left: 4px solid #9c27b0;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.isaac-ros-content {
+  background-color: #e8eaf6;
+  border-left: 4px solid #3f51b5;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.nav2-navigation {
+  background-color: #e0f7fa;
+  border-left: 4px solid #00bcd4;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.ai-pipeline {
+  background-color: #e1f5fe;
+  border-left: 4px solid #03a9f4;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Custom styles for Vision-Language-Action (VLA) content */
+.vla-concept {
+  background-color: #fde2e3;
+  border-left: 4px solid #f44336;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.voice-to-action-content {
+  background-color: #e8f5e8;
+  border-left: 4px solid #43a047;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.cognitive-planning-content {
+  background-color: #e3f2fd;
+  border-left: 4px solid #1976d2;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.capstone-project-content {
+  background-color: #fff3e0;
+  border-left: 4px solid #ff9800;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Hero section center alignment */
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Center content vertically and horizontally in hero section */
+.hero--primary {
+  background-color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .hero--primary {
+  background-color: var(--ifm-color-emphasis-900);
+}
+
+/* Flexbox approach for centering */
+.hero--primary .hero__title,
+.hero--primary .hero__subtitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Container for vertical centering */
+.hero--primary .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
