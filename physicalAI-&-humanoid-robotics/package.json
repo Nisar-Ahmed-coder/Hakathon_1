@@ -4,9 +4,16 @@
   "description": "AI/Spec-Driven Book Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "docusaurus start",
+  "build": "docusaurus build",
+  "serve": "docusaurus serve"
+}
+,
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2"
+  }
 }
